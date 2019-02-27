@@ -1300,6 +1300,12 @@ p {
     margin-bottom: 0;
 }
 
+
+
+
+
+.kommunicate-custom-iframe { bottom: 60px !important; } 
+
 /* DialogFlow implementation */
 /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
