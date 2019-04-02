@@ -423,9 +423,10 @@ p {
 :: 3.0 Wellcome Area CSS
 -------------------------- */
 .padding100px {
-	margin-right: 50px;
-	margin-left: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
 	margin-top: 10px;
+	margin-bottom: 150px;
 }
 
 .wellcome_area {
@@ -1409,3 +1410,9 @@ p {
   opacity: 1;
 }
 */
+
+@media only screen and (max-width: 1250px) { 
+    .hiddenOnSmaller {
+        display: none;
+    }
+}
